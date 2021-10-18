@@ -2,6 +2,10 @@
   <ItemGroup>
     <ProjectReference Include="..\Library\Library.csproj" />
   </ItemGroup>
+    <ItemGroup>
+    <ProjectReference Include="..\..\..\PII_TwitterApi\src\Library\Library.csproj" />
+    <ProjectReference Include="..\..\..\PII_CognitiveAPI\src\Library\Library.csproj" />
+  </ItemGroup>
   <PropertyGroup>
     <OutputType>Exe</OutputType>
     <TargetFramework>net5.0</TargetFramework>
